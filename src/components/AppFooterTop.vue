@@ -62,7 +62,8 @@ export default {
 
 .jumbotron {
   height: 370px;
-  background-color: lighten($primary-color, 5%);
+  background-image: url("../assets/img/footer-bg.jpg");
+  background-size: cover;
   .content {
     display: flex;
     div {
@@ -77,7 +78,7 @@ export default {
       list-style: none;
       a {
         text-decoration: none;
-        color: gray;
+        color: #959595;
         font-size: 0.75rem;
         display: inline-block;
         padding: 5px 0;

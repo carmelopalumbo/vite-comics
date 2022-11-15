@@ -19,7 +19,7 @@ export default {
 
 main {
   background-color: $primary-color;
-  height: 120px; //rimuovere
+  height: 195px; //rimuovere
   .content {
     h1 {
       color: white; //rimuovere
