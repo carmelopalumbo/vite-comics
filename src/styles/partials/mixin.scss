@@ -18,3 +18,8 @@
     font-size: .8rem;
     font-weight: 600;
 }
+
+@mixin content(){
+    width: 70%;
+    margin: 0 auto;
+}
