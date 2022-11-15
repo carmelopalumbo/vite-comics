@@ -81,9 +81,9 @@ header {
       a {
         color: lighten($primary-color, 15%);
         text-decoration: none;
-        padding-bottom: 45px;
+        padding-bottom: 43px;
         &:hover {
-          border-bottom: 5px solid lighten($secondary-color, 10%);
+          box-shadow: 0px 7px 0px 0px lighten($secondary-color, 10%);
         }
       }
     }
