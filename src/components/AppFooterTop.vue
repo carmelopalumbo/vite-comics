@@ -1,6 +1,6 @@
 <script>
 export default {
-  name: "AppMain",
+  name: "AppFooterTop",
 };
 </script>
 
@@ -51,6 +51,7 @@ export default {
           <li><a href="#">DC Power Visa</a></li>
         </ul>
       </div>
+      <img src="../assets/img/dc-logo-bg.png" alt="" class="bglogo" />
     </div>
   </div>
 </template>
@@ -65,6 +66,8 @@ export default {
   background-image: url("../assets/img/footer-bg.jpg");
   background-size: cover;
   .content {
+    position: relative;
+    overflow: hidden;
     display: flex;
     div {
       padding: 30px;
@@ -87,6 +90,11 @@ export default {
         }
       }
     }
+  }
+  .bglogo {
+    position: absolute;
+    top: -80px;
+    right: 0;
   }
 }
 </style>
