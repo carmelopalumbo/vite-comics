@@ -37,6 +37,7 @@ footer {
       padding: 13px;
       border: 2px solid $secondary-color;
       color: white;
+      cursor: pointer;
     }
     h3 {
       color: $secondary-color;
