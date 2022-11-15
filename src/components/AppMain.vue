@@ -6,7 +6,7 @@ export default {
 
 <template>
   <main>
-    <div class="container">
+    <div class="content">
       <h1>CONTENTS HERE...</h1>
     </div>
   </main>
@@ -15,12 +15,12 @@ export default {
 <style lang="scss" scoped>
 @use "../styles/partials/variables" as *;
 @use "../styles/partials/mixin" as *;
+@use "../styles/general.scss" as *;
 
 main {
   background-color: $primary-color;
   height: 120px; //rimuovere
-  .container {
-    @include content();
+  .content {
     h1 {
       color: white; //rimuovere
       text-align: center; //rimuovere

@@ -49,13 +49,13 @@ export default {
 </template>
 
 <style lang="scss" scoped>
+@use "../styles/general.scss" as *;
 @use "../styles/partials/variables" as *;
 @use "../styles/partials/mixin" as *;
 .menu-box {
   background-color: $secondary-color;
   height: 155px; //rimuovere
   .content {
-    @include content();
     ul {
       @include reset-list();
       justify-content: space-between;
