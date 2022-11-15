@@ -10,11 +10,11 @@ export default {
       <h4>SIGN-UP NOW!</h4>
       <div class="follow-us">
         <h3>FOLLOW US</h3>
-        <img src="../assets/img/footer-facebook.png" alt="" />
-        <img src="../assets/img/footer-twitter.png" alt="" />
-        <img src="../assets/img/footer-youtube.png" alt="" />
-        <img src="../assets/img/footer-pinterest.png" alt="" />
-        <img src="../assets/img/footer-periscope.png" alt="" />
+        <img src="../assets/img/footer-facebook.png" alt="facebook" />
+        <img src="../assets/img/footer-twitter.png" alt="twitter" />
+        <img src="../assets/img/footer-youtube.png" alt="youtube" />
+        <img src="../assets/img/footer-pinterest.png" alt="pinterest" />
+        <img src="../assets/img/footer-periscope.png" alt="periscope" />
       </div>
     </div>
   </footer>
