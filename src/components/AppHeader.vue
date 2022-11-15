@@ -1,4 +1,5 @@
 <script>
+// header con menu
 export default {
   name: "AppHeader",
   data() {

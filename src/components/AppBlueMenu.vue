@@ -1,4 +1,5 @@
 <script>
+// menu fascia blu
 export default {
   name: "AppBlueMenu",
   data() {

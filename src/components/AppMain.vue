@@ -1,4 +1,5 @@
 <script>
+// main
 export default {
   name: "AppMain",
 };

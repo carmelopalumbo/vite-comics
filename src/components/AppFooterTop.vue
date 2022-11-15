@@ -1,4 +1,5 @@
 <script>
+// footer con menu list
 export default {
   name: "AppFooterTop",
 };

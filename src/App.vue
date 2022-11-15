@@ -1,4 +1,5 @@
 <script>
+// app che lancia tutti i componenti
 import AppHeader from "./components/AppHeader.vue";
 import AppMain from "./components/AppMain.vue";
 import AppBlueMenu from "./components/AppBlueMenu.vue";
