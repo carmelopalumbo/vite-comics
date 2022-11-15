@@ -1,6 +1,7 @@
 <script>
 import AppHeader from "./components/AppHeader.vue";
 import AppMain from "./components/AppMain.vue";
+import AppBlueMenu from "./components/AppBlueMenu.vue";
 import AppJumbotron from "./components/AppJumbotron.vue";
 import AppFooter from "./components/AppFooter.vue";
 
@@ -9,6 +10,7 @@ export default {
   components: {
     AppHeader,
     AppMain,
+    AppBlueMenu,
     AppJumbotron,
     AppFooter,
   },
@@ -18,6 +20,7 @@ export default {
 <template>
   <AppHeader />
   <AppMain />
+  <AppBlueMenu />
   <AppJumbotron />
   <AppFooter />
 </template>

@@ -23,6 +23,8 @@ main {
     @include content();
     h1 {
       color: white; //rimuovere
+      text-align: center; //rimuovere
+      padding-top: 30px; //rimuovere
     }
   }
 }
