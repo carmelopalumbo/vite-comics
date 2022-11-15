@@ -3,7 +3,7 @@ import AppHeader from "./components/AppHeader.vue";
 import AppMain from "./components/AppMain.vue";
 import AppBlueMenu from "./components/AppBlueMenu.vue";
 import AppFooterTop from "./components/AppFooterTop.vue";
-import AppFooter from "./components/AppFooter.vue";
+import AppFooterBottom from "./components/AppFooterBottom.vue";
 
 export default {
   name: "App",
@@ -12,7 +12,7 @@ export default {
     AppMain,
     AppBlueMenu,
     AppFooterTop,
-    AppFooter,
+    AppFooterBottom,
   },
 };
 </script>
@@ -22,7 +22,7 @@ export default {
   <AppMain />
   <AppBlueMenu />
   <AppFooterTop />
-  <AppFooter />
+  <AppFooterBottom />
 </template>
 
 <style lang="scss">
