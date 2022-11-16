@@ -26,6 +26,8 @@ export default {
 <style lang="scss" scoped>
 @use "../styles/partials/mixin" as *;
 @use "../styles/partials/variables" as *;
+@use "../styles/partials/media";
+
 header {
   height: 117px;
   @include justify-between();
@@ -47,17 +49,6 @@ header {
           box-shadow: 0px 7px 0px 0px lighten($secondary-color, 10%);
         }
       }
-    }
-  }
-}
-
-@media (max-width: 700px) {
-  header {
-    ul {
-      display: none;
-    }
-    img {
-      margin: 0 auto;
     }
   }
 }

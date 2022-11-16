@@ -24,6 +24,7 @@ export default {
 <style lang="scss" scoped>
 @use "../styles/partials/variables" as *;
 @use "../styles/partials/mixin" as *;
+@use "../styles/partials/media";
 
 footer {
   height: 110px;
@@ -51,14 +52,6 @@ footer {
         padding-top: 5px;
         font-size: 1.1rem;
       }
-    }
-  }
-}
-
-@media (max-width: 800px) {
-  footer {
-    img {
-      display: none;
     }
   }
 }

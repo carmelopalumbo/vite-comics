@@ -60,6 +60,7 @@ export default {
 <style lang="scss" scoped>
 @use "../styles/partials/variables" as *;
 @use "../styles/partials/mixin" as *;
+@use "../styles/partials/media";
 
 .jumbotron {
   height: 370px;
@@ -95,14 +96,6 @@ export default {
     position: absolute;
     top: -80px;
     right: 0;
-  }
-}
-
-@media (max-width: 800px) {
-  .jumbotron {
-    .bglogo {
-      display: none;
-    }
   }
 }
 </style>

@@ -20,6 +20,7 @@ export default {
 
 <style lang="scss" scoped>
 @use "../styles/partials/variables" as *;
+@use "../styles/partials/media";
 
 .card {
   position: relative;
@@ -58,24 +59,6 @@ export default {
   }
   &:hover img {
     filter: brightness(0.3);
-  }
-}
-
-@media (max-width: 1225px) {
-  .card {
-    width: calc(100% / 4);
-  }
-}
-
-@media (max-width: 843px) {
-  .card {
-    width: calc(100% / 3);
-  }
-}
-
-@media (max-width: 628px) {
-  .card {
-    width: calc(100% / 2);
   }
 }
 </style>
