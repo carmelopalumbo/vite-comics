@@ -7,6 +7,9 @@ export default {
 
 <template>
   <main>
+    <div class="jumbotron">
+      <img src="../assets/img/jumbotron.jpg" alt="jumbotron" />
+    </div>
     <div class="content">
       <h1>CONTENTS HERE...</h1>
     </div>
@@ -20,7 +23,12 @@ export default {
 
 main {
   background-color: $primary-color;
-  height: 195px; //rimuovere
+  .jumbotron img {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+  }
   .content {
     h1 {
       color: white; //rimuovere
