@@ -1,31 +1,12 @@
 <script>
 // menu fascia blu
+import menu from "../data/bluemenu.js";
+
 export default {
   name: "AppBlueMenu",
   data() {
     return {
-      menu: [
-        {
-          img: "buy-comics-digital-comics.png",
-          text: "digital comics",
-        },
-        {
-          img: "buy-comics-merchandise.png",
-          text: "dc merchandise",
-        },
-        {
-          img: "buy-comics-subscriptions.png",
-          text: "subscriptions",
-        },
-        {
-          img: "buy-comics-shop-locator.png",
-          text: "comic shop locator",
-        },
-        {
-          img: "buy-dc-power-visa.svg",
-          text: "dc power visa",
-        },
-      ],
+      menu,
     };
   },
   methods: {
@@ -50,7 +31,6 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-@use "../styles/general.scss" as *;
 @use "../styles/partials/variables" as *;
 @use "../styles/partials/mixin" as *;
 .menu-box {
