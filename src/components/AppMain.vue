@@ -32,7 +32,6 @@ export default {
 <style lang="scss" scoped>
 @use "../styles/partials/variables" as *;
 @use "../styles/partials/mixin" as *;
-@use "../styles/general.scss" as *;
 
 main {
   padding-bottom: 30px;
