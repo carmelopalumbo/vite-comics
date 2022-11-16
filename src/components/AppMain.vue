@@ -1,7 +1,18 @@
 <script>
 // main
+import AppCard from "./AppCard.vue";
+import cards from "../data/dc-comics";
+
 export default {
   name: "AppMain",
+  components: {
+    AppCard,
+  },
+  data() {
+    return {
+      cards,
+    };
+  },
 };
 </script>
 
@@ -11,7 +22,7 @@ export default {
       <img src="../assets/img/jumbotron.jpg" alt="jumbotron" />
     </div>
     <div class="content">
-      <h1>CONTENTS HERE...</h1>
+      <AppCard v-for="(card, index) in cards" :key="index" :card="card" />
     </div>
   </main>
 </template>
@@ -30,11 +41,8 @@ main {
     object-position: top;
   }
   .content {
-    h1 {
-      color: white; //rimuovere
-      text-align: center; //rimuovere
-      padding-top: 30px; //rimuovere
-    }
+    display: flex;
+    flex-wrap: wrap;
   }
 }
 </style>
