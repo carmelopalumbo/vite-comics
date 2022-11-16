@@ -35,7 +35,6 @@ export default {
 @use "../styles/partials/mixin" as *;
 .menu-box {
   background-color: $secondary-color;
-  height: 155px; //rimuovere
   .content {
     ul {
       @include reset-list();
