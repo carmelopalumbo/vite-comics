@@ -35,7 +35,7 @@ export default {
 @use "../styles/general.scss" as *;
 
 main {
-  padding: 30px 0;
+  padding-bottom: 30px;
   h2 {
     width: 215px;
     transform: translateY(-50%);
