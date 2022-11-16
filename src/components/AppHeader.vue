@@ -50,4 +50,15 @@ header {
     }
   }
 }
+
+@media (max-width: 700px) {
+  header {
+    ul {
+      display: none;
+    }
+    img {
+      margin: 0 auto;
+    }
+  }
+}
 </style>

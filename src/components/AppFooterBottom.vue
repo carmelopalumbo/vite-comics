@@ -54,4 +54,12 @@ footer {
     }
   }
 }
+
+@media (max-width: 800px) {
+  footer {
+    img {
+      display: none;
+    }
+  }
+}
 </style>

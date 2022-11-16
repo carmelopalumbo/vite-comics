@@ -35,6 +35,7 @@ export default {
 @use "../styles/partials/mixin" as *;
 .menu-box {
   background-color: $secondary-color;
+  overflow-y: auto;
   .content {
     ul {
       @include reset-list();

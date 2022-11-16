@@ -97,4 +97,12 @@ export default {
     right: 0;
   }
 }
+
+@media (max-width: 800px) {
+  .jumbotron {
+    .bglogo {
+      display: none;
+    }
+  }
+}
 </style>
